@@ -39,11 +39,6 @@ public class CartaoDAO
 				
 				ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 				Cliente cliente = new Cliente();
-				cliente.setNome(rs.getString("nome"));
-				clientes.add(cliente);
-				
-				/*System.out.println(cliente.getNome());
-				System.exit(0);*/
 				
 				while(rs.next())
 				{
